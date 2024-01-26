@@ -238,3 +238,251 @@
     width: 80px;
     margin-left: -5px;
 }
+
+.bodycontent{
+    width: 100%;
+    background-image: url(images/bck\ img.png);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    object-fit: contain;
+}
+
+.fixed1{
+    position: fixed;
+    bottom: 80px;
+    height: 150px;
+    width: 60px;
+    top: 150px;
+    left: 0px;
+    z-index: 1;
+    border-top-right-radius: 15px;
+}
+
+.fixed-login{
+    width: 60px;
+    height: 110px;
+    background-color: #54b564;
+    border-top-right-radius: 13px;
+    border-top: solid 3px #181818;
+    text-align: center;
+}
+
+.fixed-login>img{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 40px;
+}
+
+.fixed-login>p{
+    font-family: sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.fixedsearch{
+    color: white;
+}
+
+.fixed2{
+    position: fixed;
+    bottom: 15px;
+    right: 0px;
+    z-index: 1;
+    border-radius: 5px;
+    width: 80px;
+    background-color: #fff;
+    box-shadow: rgba(89,88,88,0,8) 0px -2px 7px;
+
+}
+
+.body-container{
+    width: 70%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.body-inner{
+    width: 70%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom:20px ;
+}
+
+.body-container>img{
+    width: 100%;
+
+}
+
+.body-container>img{
+    width: 100%;
+}
+
+ .main-body{
+    width: 100%;
+} 
+
+
+.logo>img{
+    width: 330px;
+    display: flex;
+    left: 110px;
+    top: 200px;
+    border-radius: 4px;
+    
+} 
+
+
+
+.main-body{
+    width: 430px;
+    height: 352px;
+    background-color: #734bb2;
+    border: 2px solid blue;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    margin: -69px 12px 12px -315px;
+    
+}
+
+.text-body{
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.text-body>img{
+    width: 120px;
+    height: 70px;
+    margin: 0px;
+    position: relative;
+    left: 308px;
+    top: -64px
+}
+
+.text-body{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.left-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.scarlet-bottom{
+    width: 100%;
+    background-color: #e3350d;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.scarlet-bottom>img{
+    width: 100%;
+
+}
+
+.scarlet-bottom2{
+    width: 100%;
+    background-color: #e6bc2f;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.scarlet-bottom2 img{
+    width: 100%;
+}
+
+.pokemon-world{
+    width: 48%;
+
+}
+
+.pk-world-des{
+    width: 100%;
+    padding: 0px;
+
+}
+
+.pk-world-des p{
+    text-align: justify;
+    width: 90%;
+    font-size: 21px;
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    margin-left: 15px;
+}
+
+.content-right{
+    width: 27%;
+    margin-left: 10px;
+}
+
+.scarlet-main-right1{
+    width: 100%;
+    background-color: #2154b4;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 230px;
+}
+
+.scarlet-main-right1 img{
+    width: 100%;
+}
+
+.pk-right-des {
+    width: 100%;
+    padding: 0px;
+  }
+
+.pk-right-des p{
+    text-align: justify;
+    width: 90%;
+    font-size: 21px;
+    font-family: myFont;
+    color: white;
+    margin-left: 15px;
+}
+
+.scarlet-main-right2 img{
+    width: 90%;
+    object-fit: cover;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.scarlet-main-right2 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #313131;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+
+.pk-right-des2{
+    text-align: left;
+    width: 90%;
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+
+}
